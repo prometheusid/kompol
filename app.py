@@ -11,6 +11,6 @@ def index():
 def forum():
     return render_template('forum/index.html')
 
-@app.route("/forum")
-def forumdetail():
+@app.route("/forum/forumdetail")
+def detail():
     return render_template('forum/forumdetail.html')
